@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "numeroEmpleado": 9828,
+        "nombres": "Eduardo Antonio",
+        "apellidos": "Rodriguez Gonzalez",
+        "horasClase": 6
+    },
+    {
+        "id": 2,
+        "numeroEmpleado": 8546,
+        "nombres": "Davud Antonio",
+        "apellidos": "Soberanis Ramirez",
+        "horasClase":6
+    }
+]

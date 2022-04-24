@@ -1,0 +1,37 @@
+[
+    {
+        "id" : 1,
+        "nombres" : "Itzel Carolina",
+        "apellidos": "Bermudez Burgos",
+        "matricula": "17016326",
+        "promedio": "89.6"
+    },
+    {
+        "id" : 2,
+        "nombres" : "David Isaac",
+        "apellidos": "Mendoza Ita",
+        "matricula": "14001041",
+        "promedio": "92.7"
+    },
+    {
+        "id" : 3,
+        "nombres" : "Ricardo Nicolas",
+        "apellidos": "Canul Ibarra",
+        "matricula": "15001169",
+        "promedio": 78.2
+    },
+    {
+        "id" : 4,
+        "nombres" : "Leonardo Andres",
+        "apellidos": "Hernandez Lopez",
+        "matricula": "19016362",
+        "promedio": 91.6
+    },
+    {
+        "id" : 5,
+        "nombres" : "Angel Adrian",
+        "apellidos": "Bustillos Sosa",
+        "matricula": "16003152",
+        "promedio": 90.2
+    }
+]
