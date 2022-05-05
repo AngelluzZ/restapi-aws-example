@@ -2,12 +2,12 @@ const { Router } = require('express');
 const router = Router();
 
 // routes
-router.get('/test', (req, res) =>{
-    const data = {
-        "name" : "Angel",
-        "twitter" : "@AngelSoas"
-    };
-    res.json(data.name);
+router.get('/', (req, res) =>{
+    res.status(405).json({error:'Wrong Request: Method Not Allowed'});
+})
+
+router.post('/', (req, res) =>{
+    res.status(405).json({error:'Wrong Request: Method Not Allowed'});
 })
 
 module.exports = router;

@@ -15,6 +15,7 @@ app.use(express.json());
 //app.use(require('./routes/routes'))
 app.use('/alumnos',require('./routes/alumnos'))
 app.use('/profesores',require('./routes/profesores'))
+app.use('/',require('./routes/routes'))
 
 // starting the server
 app.listen(app.get('port'), () => {
