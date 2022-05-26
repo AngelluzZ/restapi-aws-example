@@ -50,6 +50,10 @@ router.post('/', (req, res) => {
     }
 });
 
+router.delete('/', (req, res) => {
+    res.status(405).json({error:'Wrong Request: Method Not Allowed'});
+});
+
 router.put('/:id', (req, res) => {
     const { id } = req.params;
     const { nombres, apellidos, matricula, promedio } = req.body;
